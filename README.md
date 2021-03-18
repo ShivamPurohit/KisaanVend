@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+### Team Name - CSF_Pros
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Team Code - 116aa2b7c3
 
-## Available Scripts
+### Team Members
 
-In the project directory, you can run:
+- Ramankur Goswami
+- Shivam Purohit
+- Pranjal Srivastava
 
-### `yarn start`
+### Track Choosen - Open Innovation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Problem Statement
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Due to changing farm laws and regulations, farmers across the country are facing the following issues ->
 
-### `yarn test`
+- Lack of proper regulated channels for buying and selling.
+- Lack of awareness among farmers about market prices.
+- Non enforcement of government rules.
+- Middle-man mediation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We are trying to solve the above by using a web app built for farmers to sell crops and buy equipments without any middle-man mediation and create a independent, fully-virtual marketplace.
 
-### `yarn build`
+### Methodology
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**KisaanVend** is a webapp through which farmers can sell crops to and buy equipment directly from other merchants without any third-party mediation.
+ 
+To avoid price inflation and maintain regularised selling, the app validates any purchase through the use of MSP for pricing and the buyer must adhere to it.
+ 
+The app also incorporate payment authentication which help both parties avoid extra middleman costs and helps in creating of a virtual market space to empower both the buyer and seller.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Flowchart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align='center'><img src="./flowchart.jpeg" alt="flowchart" height=400 /></p>
 
-### `yarn eject`
+### HOW ARE WE DIFFERENT FROM OTHERS
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+We are creating a safe, regulated and fully virtual platform which acts as a self-independent marketplace exclusively for farmers. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Through the use of MSP, we are making farmers aware of the true market value for their goods and help him/her in creating a stronger negotiating position for self.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Tech Stack
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. React - Frontend
+2. Firebase - Backend & DBMS
+3. Material-UI – Visual Customization
 
-## Learn More
+### Challenges Faced
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Since we are mostly focussed currently on building the web app, the other business model problems such as Logistics and Transport have not been completely feasibly sorted out. We are trying to solve the above by creating a business model plan in the near future. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Currently we do not have access and authorization to the government API for real time updation of the MSP. So we are updating it manually from publically available official government pricelist for validation (Link - https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1657457).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
