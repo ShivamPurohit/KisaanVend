@@ -9,7 +9,7 @@ import { getBasketTotal } from '../../Reducer';
 
 import { db } from '../../firebase';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
-// import axios from '../../axios';
+import axios from '../../axios';
 
 const Payment = () => {
 
@@ -29,14 +29,14 @@ const Payment = () => {
 
     useEffect(() => {
         // generate the special stripe secret which allows o charge a cutomer
-        // const getClientSecret = async () => {
-        //     const response = await axios({
-        //         method: 'post',
-        //         url: `/payments/create?total=${getBasketTotal(basket) * 100}`
-        //     });
-        //     setClientSecret(response.data.clientSecret)
-        // }
-        // getClientSecret();
+        const getClientSecret = async () => {
+            const response = await axios({
+                method: 'post',
+                url: `/payments/create?total=${getBasketTotal(basket) * 100}`
+            });
+            setClientSecret(response.data.clientSecret)
+        }
+        getClientSecret();
     }, [basket])
 
     const handleSubmit = async (event) => {

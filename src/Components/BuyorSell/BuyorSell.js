@@ -28,14 +28,14 @@ const BuyorSell = () => {
 
             <div className="buyorsell__cards">
                 <div class="card" onClick={buy}>
-                    <img src={Buy} alt="Avatar" style={{ width: '100%', padding: '10px', height: "310px" }} />
+                    <img src={Sell} alt="Avatar" style={{ width: '100%', padding: '10px', height: "310px" }} />
                     <div class="container">
                         <h4><b>Buy Goods</b></h4>
                     </div>
                 </div>
 
                 <div class="card" onClick={sell}>
-                    <img src={Sell} alt="Avatar" style={{ width: '100%', padding: '10px', height: "310px" }} />
+                    <img src={Buy} alt="Avatar" style={{ width: '100%', padding: '10px', height: "310px" }} />
                     <div class="container">
                         <h4><b>Sell Crops</b></h4>
                     </div>
