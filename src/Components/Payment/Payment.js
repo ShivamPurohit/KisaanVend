@@ -58,7 +58,8 @@ const Payment = () => {
                 .set({
                     basket: basket,
                     amount: paymentIntent.amount,
-                    created: paymentIntent.created
+                    created: paymentIntent.created,
+                    address: address
                 })
 
             setSucceeded(true);

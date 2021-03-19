@@ -6,6 +6,7 @@ import CheckoutProduct from '../../CheckoutProduct/CheckoutProduct';
 import CurrencyFormat from 'react-currency-format'
 
 const Order = ({ order }) => {
+
     return (
         <div className='order'>
 
