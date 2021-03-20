@@ -1,7 +1,3 @@
-### Team Name - CSF_Pros
-
-### Team Code - 116aa2b7c3
-
 ### Team Members
 
 - Ramankur Goswami
